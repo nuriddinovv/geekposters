@@ -1,5 +1,4 @@
-// Product Database
-const products = [
+export const products = [
     {
         id: 1,
         name: 'Porsche GT3 RS',
@@ -199,8 +198,3 @@ const products = [
         image: 'assets/posters/gaming/de nuke.png'
     }
 ];
-
-// Export for use in other files
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = products;
-}
