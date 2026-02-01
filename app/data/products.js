@@ -1,3 +1,4 @@
+// Sample product data
 export const products = [
     {
         id: 1,
@@ -198,3 +199,4 @@ export const products = [
         image: 'assets/posters/gaming/de nuke.png'
     }
 ];
+
